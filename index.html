@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <!-- box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css-->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Header design-->
+
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">service</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--This is the Home section Design-->
+
+    <section class="home" id="home">
+      <div class="home-section">
+        <h3>Hello, Whats Up!</h3>
+        <h1>Joseph Chafutwa</h1>
+        <h3>I am a <span>Software Developer</span></h3>
+        <p>
+          I am a software Developer based in Kenya. I am very creative and dedicated to doing my job.
+        </p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/profile.php?id=100093465014636"><i class='bx bxl-facebook-circle' ></i></i></a>
+          <a href="#"><i class='bx bxl-twitter' ></i></a>
+          <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a>
+          <a href="https://www.linkedin.com/in/joseph-chafutwa-a0b7ab200/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+          <a href=" https://wa.me/25411524227"><i class='bx bxl-whatsapp-square' ></i></a>
+        </div>
+        <a href="/images/Joseph Chafutwa.pdf" download class="btn">Download Cv</a>
+      </div>
+      <div class="home-img">
+        <img src="images/profile.png" alt="log-pic" />
+      </div>
+    </section>
+
+    <!--This is the About Section Design-->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/aboutT.png" alt="my pic">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">All About <span>Me</span></h2>
+            <h3>Software Developer!</h3>
+            <p>I am a software developer with experience in front-end development, data analysis,<br> databases and graphic design
+                I take a great pride in not only offering the best of services to <br>my clients but also going an extra mile wherever
+                possible. i enjoy getting to know the business, its goals <br>and how i can best apply myself in order to live upto the
+                goal of the business and make sure that the business is in <br>line to realizing its goal
+            </p>
+            <a href="#" class="btn">Read More</a> 
+        </div>
+    </section>
+
+    <!--This is the Service Section Design-->
+
+    <section class="service" id="service">
+        <h2 class="heading">Services <span>Offered</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores recusandae
+                     et nam impedit voluptatem harum vitae suscipit vero voluptate nostrum!
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-analyse'></i>
+                <h3>Data Analysis</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores recusandae
+                     et nam impedit voluptatem harum vitae suscipit vero voluptate nostrum!
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores recusandae
+                     et nam impedit voluptatem harum vitae suscipit vero voluptate nostrum!
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--This is the Portfolio Design-->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Recent <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/folio.jpg" alt="project picture">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, officiis.</p>
+
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/home.png" alt="project picture">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, officiis.</p>
+
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--This is the Contact Design-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="Email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="Number" placeholder="Mobile number">
+                <input type="Text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <a href="mailto:josephchafutwa@gmail.com">Send Email</a>
+        </form>
+    </section>
+
+    <!--this is the footer Design-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright & copy; 2023 by Joe. | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!--scroll reveal-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--custom script-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
